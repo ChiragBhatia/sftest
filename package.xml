@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package 
-  
-  
   xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
     <members>Activity.Completion__c</members>
@@ -16,6 +14,10 @@
     <members>AnswersHome</members>
     <members>AuraGoogleMapTest</members>
     <name>ApexPage</name>
+  </types>
+  <types>
+    <members>Salesforce1</members>
+    <name>AppMenu</name>
   </types>
   <version>36.0</version>
 </Package>
