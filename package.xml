@@ -16,7 +16,6 @@
     <name>ApexPage</name>
   </types>
   <types>
-    <members>Salesforce1</members>
     <members>AppSwitcher</members>
     <name>AppMenu</name>
   </types>
