@@ -26,5 +26,9 @@
     <members>angularjscustom</members>
     <name>StaticResource</name>
   </types>
+  <types>
+    <members>cTimeline</members>
+    <name>ApexComponent</name>
+  </types>
   <version>36.0</version>
 </Package>
