@@ -14,11 +14,20 @@
     <members>AnswersHome</members>
     <members>AuraGoogleMapTest</members>
     <members>BandwidthExceeded</members>
+    <members>AriaTest01</members>
     <name>ApexPage</name>
   </types>
   <types>
     <members>CreateMilestones</members>
     <name>ApexTrigger</name>
+  </types>
+  <types>
+    <members></members>
+    <name></name>
+  </types>
+  <types>
+    <members>angularjscustom</members>
+    <name>StaticResource</name>
   </types>
   <version>36.0</version>
 </Package>
