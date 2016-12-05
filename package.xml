@@ -16,5 +16,9 @@
     <members>BandwidthExceeded</members>
     <name>ApexPage</name>
   </types>
+  <types>
+    <members>CreateMilestones</members>
+    <name>ApexTrigger</name>
+  </types>
   <version>36.0</version>
 </Package>
