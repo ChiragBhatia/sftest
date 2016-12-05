@@ -17,6 +17,7 @@
   </types>
   <types>
     <members>Salesforce1</members>
+    <members>AppSwitcher</members>
     <name>AppMenu</name>
   </types>
   <version>36.0</version>
