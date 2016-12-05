@@ -14,12 +14,7 @@
     <members>AnswersHome</members>
     <members>AuraGoogleMapTest</members>
     <members>BandwidthExceeded</members>
-    <members>CitizenSuccessPlan</members>
     <name>ApexPage</name>
-  </types>
-  <types>
-    <members>AppSwitcher</members>
-    <name>AppMenu</name>
   </types>
   <version>36.0</version>
 </Package>
