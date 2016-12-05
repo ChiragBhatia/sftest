@@ -13,6 +13,8 @@
     <members>AllNews</members>
     <members>AnswersHome</members>
     <members>AuraGoogleMapTest</members>
+    <members>BandwidthExceeded</members>
+    <members>CitizenSuccessPlan</members>
     <name>ApexPage</name>
   </types>
   <types>
