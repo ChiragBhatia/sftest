@@ -28,6 +28,7 @@
   </types>
   <types>
     <members>cTimeline</members>
+    <members>pdfComp01</members>
     <name>ApexComponent</name>
   </types>
   <version>36.0</version>
