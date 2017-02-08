@@ -2,51 +2,11 @@
 <Package 
   xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>Autocomplete</members>
-    <members>BootstrapMI</members>
-    <members>check1gr</members>
-    <members>ClientFolio</members>
-    <members>clientsearch</members>
-    <members>clientsupdatedwarning</members>
-    <members>Common_Application_Page</members>
-    <members>Education</members>
-    <members>Explore_Page</members>
-    <members>Explore_Page1</members>
-    <members>family</members>
-    <members>Family_Management_Page</members>
-    <members>FontsLightning</members>
-    <members>FullCalendar</members>
-    <members>IconsLightening</members>
-    <members>Job</members>
-    <members>jquery11</members>
-    <members>JQueryMask</members>
-    <members>layoutCSS</members>
-    <members>Maps</members>
-    <members>Medical</members>
-    <members>MI_Images</members>
-    <members>MyHouse</members>
-    <members>MyTaxes</members>
-    <members>MyVehicle</members>
-    <members>Pagination</members>
-    <members>Register_Page</members>
-    <members>SiteSamples</members>
-    <members>SLDS092</members>
-    <members>SoulCSS</members>
-    <members>SP_PDF_Main_Header</members>
-    <members>SP_PDF_Support</members>
-    <members>SP_PDF_TL_Foot</members>
-    <members>SP_PDF_TL_Head</members>
-    <members>StylesLightning</members>
-    <members>SVG_EVERYBODY</members>
-    <members>TASC</members>
-    <members>tasksblue1</members>
-    <members>taskscomplete</members>
-    <members>taskscompletedgray4</members>
-    <members>tasksdelete</members>
-    <members>tasksgreen1</members>
-    <members>tasksorange1</members>
-    <members>TDESC</members>
-    <name>StaticResource</name>
+    <members>MI_Activity__c.CalendarRemindersForAll</members>
+    <members>MI_Activity__c.Event Reminder</members>
+    <members>MI_Activity__c.TaskRemindersForCitizen</members>
+    <members>MI_Activity__c.TaskRemindersForOthers</members>
+    <name>WorkflowRule</name>
   </types>
   <version>36.0</version>
 </Package>
