@@ -2,11 +2,79 @@
 <Package 
   xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>MI_Activity__c.CalendarRemindersForAll</members>
-    <members>MI_Activity__c.Event Reminder</members>
-    <members>MI_Activity__c.TaskRemindersForCitizen</members>
-    <members>MI_Activity__c.TaskRemindersForOthers</members>
-    <name>WorkflowRule</name>
+    <members>Case.CoachId__c</members>
+    <members>Case.CountMilestones__c</members>
+    <members>Case.CountMilestonesComp__c</members>
+    <members>Case.Education__c</members>
+    <members>Case.Family_Life__c</members>
+    <members>Case.Financial__c</members>
+    <members>Case.Health_Wellness__c</members>
+    <members>Case.LastUpdatedGoalCase__c</members>
+    <members>Case.MinOverdueDate__c</members>
+    <members>Case.Nutrition__c</members>
+    <members>Case.Primary_Contact_Image__c</members>
+    <members>Case.Primary_Contact_Name__c</members>
+    <members>Case.Success_Coach_Name__c</members>
+    <members>Case.SuccessCoach__c</members>
+    <members>Case.TransLstUpd__c</members>
+    <members>Contact.Address__c</members>
+    <members>Contact.Age__c</members>
+    <members>Contact.Children__c</members>
+    <members>Contact.Contact_Preference__c</members>
+    <members>Contact.ContactImageName__c</members>
+    <members>Contact.Employed__c</members>
+    <members>Contact.Gender__c</members>
+    <members>Contact.Income__c</members>
+    <members>Contact.Insurance__c</members>
+    <members>Contact.Is_Primary__c</members>
+    <members>Contact.LatestCaseID__c</members>
+    <members>Contact.Social_Security_Num__c</members>
+    <members>Contact.Social_Security_Number__c</members>
+    <members>Contact.Zipcode__c</members>
+    <members>SP_Goal__c.Case__c</members>
+    <members>SP_Goal__c.CountMilestones__c</members>
+    <members>SP_Goal__c.CountMilestonesComp__c</members>
+    <members>SP_Goal__c.Domain__c</members>
+    <members>SP_Goal__c.MinOverdueDate__c</members>
+    <members>SP_Goal__c.Show_Domain__c</members>
+    <members>SP_Goal__c.Title__c</members>
+    <members>SP_Goal__c.TransLstUpd__c</members>
+    <members>SP_Transactional__c.CaseId__c</members>
+    <members>SP_Transactional__c.CaseMaster__c</members>
+    <members>SP_Transactional__c.Completed__c</members>
+    <members>SP_Transactional__c.End_Date__c</members>
+    <members>SP_Transactional__c.Goal__c</members>
+    <members>SP_Transactional__c.GoalDescription__c</members>
+    <members>SP_Transactional__c.Milestone_Status__c</members>
+    <members>SP_Transactional__c.Name__c</members>
+    <members>SP_Transactional__c.Parent__c</members>
+    <members>SP_Transactional__c.Redetermination_Date__c</members>
+    <members>SP_Transactional__c.RID__c</members>
+    <members>SP_Transactional__c.Service_Status__c</members>
+    <members>SP_Transactional__c.SP_Duration__c</members>
+    <members>SP_Transactional__c.Start_Date__c</members>
+    <members>SP_Transactional__c.Status__c</members>
+    <members>SP_Transactional__c.Success_Plan_Master2__c</members>
+    <members>SP_Transactional__c.Type__c</members>
+    <members>Success_Plan_Master__c.Duration__c</members>
+    <members>Success_Plan_Master__c.GoalDescription__c</members>
+    <members>Success_Plan_Master__c.Parent__c</members>
+    <members>Success_Plan_Master__c.RID__c</members>
+    <members>Success_Plan_Master__c.Sequence__c</members>
+    <members>Success_Plan_Master__c.Temp__c</members>
+    <members>Success_Plan_Master__c.Type__c</members>
+    <members>Success_Plan_Master__c.Value__c</members>
+    <members>User.Agency_ID__c</members>
+    <members>User.Count__c</members>
+    <members>User.IWLAvatarId__c</members>
+    <members>User.Link_to_User__c</members>
+    <members>User.News_Category_Filter__c</members>
+    <members>User.News_Educational__c</members>
+    <members>User.News_FamilyEvents__c</members>
+    <members>User.News_JobRelated__c</members>
+    <members>User.News_Medical__c</members>
+    <members>User.Profile_Name__c</members>
+    <name>CustomField</name>
   </types>
   <version>36.0</version>
 </Package>
