@@ -33,6 +33,8 @@
     <members>ISDRegistrationContinue</members>
     <members>defaultTokens</members>
     <members>ISD_BlankTheme</members>
+    <members>Michigan_ContentLayout</members>
+    <members>Michigan_ThemeLayout</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
