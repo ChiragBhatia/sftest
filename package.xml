@@ -151,5 +151,9 @@
     <members>Contact-Contact Layout</members>
     <name>Layout</name>
   </types>
+  <types>
+    <members>*</members>
+    <name>GlobalPicklist</name>
+  </types>
   <version>36.0</version>
 </Package>
