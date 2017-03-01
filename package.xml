@@ -35,6 +35,9 @@
     <members>ISD_BlankTheme</members>
     <members>Michigan_ContentLayout</members>
     <members>Michigan_ThemeLayout</members>
+    <members>ISDConfirmNavigatorRegValidation</members>
+    <members>ISDConfirmRegistrationValidationresults</members>
+    <members>svgIcon</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
@@ -46,6 +49,8 @@
     <members>ISD_sObjectUtils</members>
     <members>ISDGenericSObjectUtils</members>
     <members>ISDPortalLandingRedirectController</members>
+    <members>ISD_CreateLightningServerResponse</members>
+    <members>ISD_CP_UserRegistration</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -64,6 +69,7 @@
     <members>Contact</members>
     <members>Address__c</members>
     <members>NavigationMenu__mdt</members>
+    <members>Contact_Address__c</members>
     <name>CustomObject</name>
   </types>
   <types>
