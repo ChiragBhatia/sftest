@@ -31,6 +31,8 @@
     <members>ISD_UserRegHeader</members>
     <members>ISD_UserRegistrationNavTerms</members>
     <members>ISDRegistrationContinue</members>
+    <members>defaultTokens</members>
+    <members>ISD_BlankTheme</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
