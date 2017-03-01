@@ -38,6 +38,7 @@
     <members>ISDConfirmNavigatorRegValidation</members>
     <members>ISDConfirmRegistrationValidationresults</members>
     <members>svgIcon</members>
+    <members>ISD_CP_Register_LPOCandARForm</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
@@ -51,6 +52,7 @@
     <members>ISDPortalLandingRedirectController</members>
     <members>ISD_CreateLightningServerResponse</members>
     <members>ISD_CP_UserRegistration</members>
+    <members>ISDUserUtils</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -118,6 +120,14 @@
     <members>NavigationMenu__mdt.MenuNavPage__c</members>
     <members>NavigationMenu__mdt.MenuSequence__c</members>
     <members>NavigationMenu__mdt.ProfileAccess__c</members>
+    <members>User.Security_Answer_1__c</members>
+    <members>User.Security_Answer_2__c</members>
+    <members>User.Security_Answer_3__c</members>
+    <members>User.Security_Answer_4__c</members>
+    <members>User.Security_Question_1__c</members>
+    <members>User.Security_Question_2__c</members>
+    <members>User.Security_Question_3__c</members>
+    <members>User.Security_Question_4__c</members>
     <name>CustomField</name>
   </types>
   <types>
