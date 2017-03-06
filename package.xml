@@ -56,6 +56,16 @@
     <members>ISD_CP_RegistrationCompleteSplashScreen</members>
     <members>ISD_CP_RegistrationNavTerms</members>
     <members>ISD_Navigator_Container_Register</members>
+    <members>ISD_Benefits_Card</members>
+    <members>ISD_ChangeContactInformation</members>
+    <members>ISD_ReportAddressDataChanges</members>
+    <members>ISD_ReportBenefitsChangeDataContainer</members>
+    <members>ISD_ReportChanges</members>
+    <members>ISD_ReportChanges_Card</members>
+    <members>ISD_ReportChanges_Container</members>
+    <members>ISD_ReportChangesContainer</members>
+    <members>ISD_ReportChangesSummary</members>
+    <members>ISD_ReportPhysicalAddressChanges</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
@@ -86,6 +96,7 @@
     <members>ISD_UserUtils</members>
     <members>ISD_UserUtils</members>
     <members>ISD_CommunityLoginController</members>
+    <members>ISD_Report_Changes</members>
     <name>ApexClass</name>
   </types>
   <types>
