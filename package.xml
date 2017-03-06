@@ -51,6 +51,11 @@
     <members>ISD_NeedsAssessment_Results</members>
     <members>ISD_NeedsAssessment_Results_LeftPanel</members>
     <members>ISD_NeedsAssessment_Results_RightPanel</members>
+    <members>ISD_LogIn</members>
+    <members>ISD_CP_Registration_NavUserNamePwd</members>
+    <members>ISD_CP_RegistrationCompleteSplashScreen</members>
+    <members>ISD_CP_RegistrationNavTerms</members>
+    <members>ISD_Navigator_Container_Register</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
@@ -78,6 +83,9 @@
     <members>ISD_NANeedsResultsWrapper</members>
     <members>ISD_NAQuestionsController</members>
     <members>ISD_NAQuestionsInfoWrapper</members>
+    <members>ISD_UserUtils</members>
+    <members>ISD_UserUtils</members>
+    <members>ISD_CommunityLoginController</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -85,6 +93,7 @@
     <members>Address__c.ISD_CPOrgReg_Address</members>
     <members>Contact.CPUserRegistrationFieldset</members>
     <members>Contact.ISD_CPOrgRegistration</members>
+    <members>User.CPUserRegistration_User_FieldSet</members>
     <name>FieldSet</name>
   </types>
   <types>
