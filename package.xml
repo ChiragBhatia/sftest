@@ -39,6 +39,18 @@
     <members>ISDConfirmRegistrationValidationresults</members>
     <members>svgIcon</members>
     <members>ISD_CP_Register_LPOCandARForm</members>
+    <members>ISD_CustomLabels</members>
+    <members>ISD_NAAssessedDomains</members>
+    <members>ISD_NAPickAssessedDomainEvent</members>
+    <members>ISD_NAQuestions</members>
+    <members>ISD_Needs_Assessment_Introduction</members>
+    <members>ISD_NeedsAssesmentResults</members>
+    <members>ISD_NeedsAssessment_Domain_Selection</members>
+    <members>ISD_NeedsAssessment_GatingQuestions</members>
+    <members>ISD_NeedsAssessment_Progress</members>
+    <members>ISD_NeedsAssessment_Results</members>
+    <members>ISD_NeedsAssessment_Results_LeftPanel</members>
+    <members>ISD_NeedsAssessment_Results_RightPanel</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
@@ -53,6 +65,19 @@
     <members>ISD_CreateLightningServerResponse</members>
     <members>ISD_CP_UserRegistration</members>
     <members>ISDUserUtils</members>
+    <members>ISD_DomainSelectionController</members>
+    <members>ISD_DomainWrapper</members>
+    <members>ISD_GatingQuestionsController</members>
+    <members>ISD_GatingQuestionsWrapper</members>
+    <members>ISD_GenericSObjectUtils</members>
+    <members>ISD_GetAssessementInfoController</members>
+    <members>ISD_NAAssessedDomainInfoWrapper</members>
+    <members>ISD_NAAssessedDomainsController</members>
+    <members>ISD_NAIntroductionController</members>
+    <members>ISD_NANeedsResultsController</members>
+    <members>ISD_NANeedsResultsWrapper</members>
+    <members>ISD_NAQuestionsController</members>
+    <members>ISD_NAQuestionsInfoWrapper</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -72,6 +97,15 @@
     <members>Address__c</members>
     <members>NavigationMenu__mdt</members>
     <members>Contact_Address__c</members>
+    <members>Answer__mdt</members>
+    <members>Assessed_Need__c</members>
+    <members>AssessedDomain__c</members>
+    <members>Assessment__c</members>
+    <members>Domain__mdt</members>
+    <members>Need__mdt</members>
+    <members>NextQuestion__mdt</members>
+    <members>Question__mdt</members>
+    <members>Response__c</members>
     <name>CustomObject</name>
   </types>
   <types>
@@ -128,6 +162,66 @@
     <members>User.Security_Question_2__c</members>
     <members>User.Security_Question_3__c</members>
     <members>User.Security_Question_4__c</members>
+    <members>Answer__mdt.Active__c</members>
+    <members>Answer__mdt.Description__c</members>
+    <members>Answer__mdt.Needs__c</members>
+    <members>Answer__mdt.Question__c</members>
+    <members>Answer__mdt.Sequence__c</members>
+    <members>Assessed_Need__c.AssessedDomain__c</members>
+    <members>Assessed_Need__c.Need_Reference__c</members>
+    <members>AssessedDomain__c.Assessment__c</members>
+    <members>AssessedDomain__c.Domain_Name__c</members>
+    <members>AssessedDomain__c.DomainRef__c</members>
+    <members>AssessedDomain__c.Sequence__c</members>
+    <members>AssessedDomain__c.Status__c</members>
+    <members>AssessedDomain__c.Type__c</members>
+    <members>Assessment__c.Associated_Assessed_Domains__c</members>
+    <members>Assessment__c.Category__c</members>
+    <members>Assessment__c.Client__c</members>
+    <members>Assessment__c.CompletionDate__c</members>
+    <members>Assessment__c.Status__c</members>
+    <members>Assessment__c.Step__c</members>
+    <members>Assessment__c.Version__c</members>
+    <members>Contact.Homeless__c</members>
+    <members>Domain__mdt.BriefDescription__c</members>
+    <members>Domain__mdt.Category__c</members>
+    <members>Domain__mdt.Explanation__c</members>
+    <members>Domain__mdt.Image__c</members>
+    <members>Domain__mdt.Information__c</members>
+    <members>Domain__mdt.Sequence__c</members>
+    <members>Domain__mdt.Status__c</members>
+    <members>Domain__mdt.UI_Sequence__c</members>
+    <members>Domain__mdt.Version__c</members>
+    <members>Need__mdt.Active__c</members>
+    <members>Need__mdt.Description__c</members>
+    <members>Need__mdt.Priority__c</members>
+    <members>NextQuestion__mdt.Active__c</members>
+    <members>NextQuestion__mdt.Answer__c</members>
+    <members>NextQuestion__mdt.Description__c</members>
+    <members>NextQuestion__mdt.NextQuestion__c</members>
+    <members>Question__mdt.Active__c</members>
+    <members>Question__mdt.AnswerType__c</members>
+    <members>Question__mdt.Category__c</members>
+    <members>Question__mdt.Description__c</members>
+    <members>Question__mdt.Domain__c</members>
+    <members>Question__mdt.FirstOrLast__c</members>
+    <members>Question__mdt.Level__c</members>
+    <members>Question__mdt.Required__c</members>
+    <members>Question__mdt.SubCategory__c</members>
+    <members>Response__c.AnswerDate__c</members>
+    <members>Response__c.AnswerDateTime__c</members>
+    <members>Response__c.AnswerNumber__c</members>
+    <members>Response__c.AnswerText__c</members>
+    <members>Response__c.AnswerType__c</members>
+    <members>Response__c.AssessedDomain__c</members>
+    <members>Response__c.FirstOrLast__c</members>
+    <members>Response__c.Level__c</members>
+    <members>Response__c.Needs__c</members>
+    <members>Response__c.ParentResponse__c</members>
+    <members>Response__c.QuestionRef__c</members>
+    <members>Response__c.Required__c</members>
+    <members>Response__c.Status__c</members>
+    <members>Response__c.Type__c</members>
     <name>CustomField</name>
   </types>
   <types>
@@ -149,11 +243,27 @@
     <members>Account-Account Layout</members>
     <members>Address__c-Address Layout</members>
     <members>Contact-Contact Layout</members>
+    <members>Answer__mdt-Answer Layout</members>
+    <members>Assessed_Need__c-Assessed Need Layout</members>
+    <members>AssessedDomain__c-Assessed Domain Layout</members>
+    <members>AssessedDomain__c-Domain Layout</members>
+    <members>Assessment__c-Assessment Layout</members>
+    <members>Domain__mdt-Domain Layout</members>
+    <members>NavigationMenu__mdt-NavigationMenu Layout</members>
+    <members>Need__mdt-Need Layout</members>
+    <members>NextQuestion__mdt-NextQuestion Layout</members>
+    <members>Question__mdt-Question Layout</members>
+    <members>Response__c-Response Layout</members>
     <name>Layout</name>
   </types>
   <types>
     <members>*</members>
     <name>GlobalPicklist</name>
+  </types>
+  <types>
+    <members>ISD_Navigator</members>
+    <members>ISD Citizen</members>
+    <name>Profile</name>
   </types>
   <version>36.0</version>
 </Package>
