@@ -257,6 +257,7 @@
   <types>
     <members>CommunitiesLanding</members>
     <members>CommunitiesLogin</members>
+    <members>Navigator_Send_Email</members>
     <name>ApexPage</name>
   </types>
   <types>
