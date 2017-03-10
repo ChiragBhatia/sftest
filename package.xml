@@ -467,5 +467,9 @@
     <members>SendEmail</members>
     <name>QuickAction</name>
   </types>
+  <types>
+    <members>Account.Send_Email</members>
+    <name>WebLink</name>
+  </types>
   <version>36.0</version>
 </Package>
