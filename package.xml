@@ -69,6 +69,10 @@
     <members>ISD_CP_NavigatorReg_Start</members>
     <members>ISD_ViewBenefits_card</members>
     <members>ISD_NADomainLearnMorePopup</members>
+    <members>ISD_BenefitsDashboard_Container</members>
+    <members>ISD_ProgressBar</members>
+    <members>ISD_Help_Popover</members>
+    <members>ISD_Success_Plan_Landing_Page</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
@@ -101,6 +105,10 @@
     <members>ISD_CommunityLoginController</members>
     <members>ISD_Report_Changes</members>
     <members>ISD_NavigationMenuController</members>
+    <members>ISD_CP_OrgRegistrationController</members>
+    <members>ISD_CP_UserRegistrationController</members>
+    <members>ISD_Nav_Register_SendEmail_Schedule</members>
+    <members>ISD_ReportChanges_Controller</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -256,6 +264,7 @@
     <members>ISD_LDSIcons</members>
     <members>ISD_Needs_Assessment_CSS</members>
     <members>SiteSamples</members>
+    <members>toggle_header_on_scroll</members>
     <name>StaticResource</name>
   </types>
   <types>
@@ -279,6 +288,7 @@
     <members>NextQuestion__mdt-NextQuestion Layout</members>
     <members>Question__mdt-Question Layout</members>
     <members>Response__c-Response Layout</members>
+    <members>Contact_Address__c-Contact Address Layout</members>
     <name>Layout</name>
   </types>
   <types>
@@ -288,7 +298,169 @@
   <types>
     <members>ISD_Navigator</members>
     <members>ISD Citizen</members>
+    <members>SOMPortal Profile</members>
     <name>Profile</name>
+  </types>
+  <types>
+    <members>Answer.NAFoodDomainAnswer0a</members>
+    <members>Answer.NAFoodDomainAnswer0b</members>
+    <members>Answer.NAFoodDomainAnswer111a</members>
+    <members>Answer.NAFoodDomainAnswer111b</members>
+    <members>Answer.NAFoodDomainAnswer111c</members>
+    <members>Answer.NAFoodDomainAnswer112a</members>
+    <members>Answer.NAFoodDomainAnswer112b</members>
+    <members>Answer.NAFoodDomainAnswer112c</members>
+    <members>Answer.NAFoodDomainAnswer112d</members>
+    <members>Answer.NAFoodDomainAnswer112e</members>
+    <members>Answer.NAFoodDomainAnswer11a</members>
+    <members>Answer.NAFoodDomainAnswer11b</members>
+    <members>Answer.NAFoodDomainAnswer11c</members>
+    <members>Answer.NAFoodDomainAnswer11d</members>
+    <members>Answer.NAFoodDomainAnswer11e</members>
+    <members>Answer.NAFoodDomainAnswer1a</members>
+    <members>Answer.NAFoodDomainAnswer1b</members>
+    <members>Answer.NAFoodDomainAnswer21a</members>
+    <members>Answer.NAFoodDomainAnswer21b</members>
+    <members>Answer.NAFoodDomainAnswer21c</members>
+    <members>Answer.NAFoodDomainAnswer22a</members>
+    <members>Answer.NAFoodDomainAnswer22b</members>
+    <members>Answer.NAFoodDomainAnswer22c</members>
+    <members>Answer.NAFoodDomainAnswer22d</members>
+    <members>Answer.NAFoodDomainAnswer22e</members>
+    <members>Answer.NAFoodDomainAnswer2a</members>
+    <members>Answer.NAFoodDomainAnswer2b</members>
+    <members>Answer.NAFoodDomainAnswer2c</members>
+    <members>Answer.NAFoodDomainAnswer2d</members>
+    <members>Answer.NAFoodDomainAnswer2e</members>
+    <members>Answer.NAFoodDomainAnswer2f</members>
+    <members>Answer.NAFoodDomainAnswer31a</members>
+    <members>Answer.NAFoodDomainAnswer31b</members>
+    <members>Answer.NAFoodDomainAnswer31c</members>
+    <members>Answer.NAFoodDomainAnswer3a</members>
+    <members>Answer.NAFoodDomainAnswer3b</members>
+    <members>Answer.NAUtilitiesDomainAnswer0a</members>
+    <members>Answer.NAUtilitiesDomainAnswer0b</members>
+    <members>Answer.NAUtilitiesDomainAnswer111a</members>
+    <members>Answer.NAUtilitiesDomainAnswer111b</members>
+    <members>Answer.NAUtilitiesDomainAnswer111c</members>
+    <members>Answer.NAUtilitiesDomainAnswer112a</members>
+    <members>Answer.NAUtilitiesDomainAnswer112b</members>
+    <members>Answer.NAUtilitiesDomainAnswer112c</members>
+    <members>Answer.NAUtilitiesDomainAnswer11a</members>
+    <members>Answer.NAUtilitiesDomainAnswer11b</members>
+    <members>Answer.NAUtilitiesDomainAnswer11c</members>
+    <members>Answer.NAUtilitiesDomainAnswer11d</members>
+    <members>Answer.NAUtilitiesDomainAnswer11e</members>
+    <members>Answer.NAUtilitiesDomainAnswer12a</members>
+    <members>Answer.NAUtilitiesDomainAnswer12b</members>
+    <members>Answer.NAUtilitiesDomainAnswer12c</members>
+    <members>Answer.NAUtilitiesDomainAnswer1a</members>
+    <members>Answer.NAUtilitiesDomainAnswer1b</members>
+    <members>Answer.NAUtilitiesDomainAnswer211a</members>
+    <members>Answer.NAUtilitiesDomainAnswer211b</members>
+    <members>Answer.NAUtilitiesDomainAnswer211c</members>
+    <members>Answer.NAUtilitiesDomainAnswer211d</members>
+    <members>Answer.NAUtilitiesDomainAnswer212a</members>
+    <members>Answer.NAUtilitiesDomainAnswer212b</members>
+    <members>Answer.NAUtilitiesDomainAnswer212c</members>
+    <members>Answer.NAUtilitiesDomainAnswer21a</members>
+    <members>Answer.NAUtilitiesDomainAnswer21b</members>
+    <members>Answer.NAUtilitiesDomainAnswer21c</members>
+    <members>Answer.NAUtilitiesDomainAnswer2a</members>
+    <members>Answer.NAUtilitiesDomainAnswer2b</members>
+    <members>Answer.NAUtilitiesDomainAnswer3a</members>
+    <members>Answer.NAUtilitiesDomainAnswer3b</members>
+    <members>Domain.Childcare</members>
+    <members>Domain.Education</members>
+    <members>Domain.EmploymentIncome</members>
+    <members>Domain.Food</members>
+    <members>Domain.Gating</members>
+    <members>Domain.Healthcare</members>
+    <members>Domain.HouseholdClothing</members>
+    <members>Domain.Shelter</members>
+    <members>Domain.Transportation</members>
+    <members>Domain.Utilities</members>
+    <members>NavigationMenu.Apply_for_Benefits</members>
+    <members>NavigationMenu.Dashboard</members>
+    <members>NavigationMenu.Locate_Resources</members>
+    <members>NavigationMenu.My_Documents</members>
+    <members>NavigationMenu.My_Plan</members>
+    <members>NavigationMenu.Reminders</members>
+    <members>NavigationMenu.Report_Changes</members>
+    <members>NavigationMenu.View_my_Benefits</members>
+    <members>Need.NAFoodNeed1</members>
+    <members>Need.NAFoodNeed2</members>
+    <members>Need.NAFoodNeed3</members>
+    <members>Need.NAFoodNeed4</members>
+    <members>Need.NAFoodNeed5</members>
+    <members>Need.NAFoodNeed6</members>
+    <members>Need.NAFoodNeed7</members>
+    <members>Need.NAUtilitiesNeed1</members>
+    <members>Need.NAUtilitiesNeed10</members>
+    <members>Need.NAUtilitiesNeed11</members>
+    <members>Need.NAUtilitiesNeed12</members>
+    <members>Need.NAUtilitiesNeed13</members>
+    <members>Need.NAUtilitiesNeed2</members>
+    <members>Need.NAUtilitiesNeed3</members>
+    <members>Need.NAUtilitiesNeed4</members>
+    <members>Need.NAUtilitiesNeed5</members>
+    <members>Need.NAUtilitiesNeed6</members>
+    <members>Need.NAUtilitiesNeed7</members>
+    <members>Need.NAUtilitiesNeed8</members>
+    <members>Need.NAUtilitiesNeed9</members>
+    <members>NextQuestion.NAFoodDomainAnswer0b1</members>
+    <members>NextQuestion.NAFoodDomainAnswer11b</members>
+    <members>NextQuestion.NAFoodDomainAnswer11d</members>
+    <members>NextQuestion.NAFoodDomainAnswer2b</members>
+    <members>NextQuestion.NAFoodDomainAnswer2d</members>
+    <members>NextQuestion.NAFoodDomainAnswer3b</members>
+    <members>NextQuestion.NAFoodDomainQuestion1</members>
+    <members>NextQuestion.NAFoodDomainQuestion11</members>
+    <members>NextQuestion.NAFoodDomainQuestion11a</members>
+    <members>NextQuestion.NAFoodDomainQuestion1q</members>
+    <members>NextQuestion.NAFoodDomainQuestion2</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer0a</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer0aa</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer0b</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer11c</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer11e</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer1a</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer1b</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer21a</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer21c</members>
+    <members>NextQuestion.NAUtilitiesDomainAnswer2a</members>
+    <members>Question.Gating_Question_Domain_Childcare</members>
+    <members>Question.Gating_Question_Domain_Education</members>
+    <members>Question.Gating_Question_Domain_Employment_Income</members>
+    <members>Question.Gating_Question_Domain_Food</members>
+    <members>Question.Gating_Question_Domain_Healthcare1</members>
+    <members>Question.Gating_Question_Domain_Healthcare2</members>
+    <members>Question.Gating_Question_Domain_Household_Clothin</members>
+    <members>Question.Gating_Question_Domain_Shelter</members>
+    <members>Question.Gating_Question_Domain_Transportation</members>
+    <members>Question.Gating_Question_Domain_Utilities</members>
+    <members>Question.NAFoodDomainQuestion0</members>
+    <members>Question.NAFoodDomainQuestion1</members>
+    <members>Question.NAFoodDomainQuestion11</members>
+    <members>Question.NAFoodDomainQuestion111</members>
+    <members>Question.NAFoodDomainQuestion112</members>
+    <members>Question.NAFoodDomainQuestion2</members>
+    <members>Question.NAFoodDomainQuestion21</members>
+    <members>Question.NAFoodDomainQuestion22</members>
+    <members>Question.NAFoodDomainQuestion3</members>
+    <members>Question.NAFoodDomainQuestion31</members>
+    <members>Question.NAUtilitiesDomainQuestion0</members>
+    <members>Question.NAUtilitiesDomainQuestion1</members>
+    <members>Question.NAUtilitiesDomainQuestion11</members>
+    <members>Question.NAUtilitiesDomainQuestion111</members>
+    <members>Question.NAUtilitiesDomainQuestion112</members>
+    <members>Question.NAUtilitiesDomainQuestion12</members>
+    <members>Question.NAUtilitiesDomainQuestion2</members>
+    <members>Question.NAUtilitiesDomainQuestion21</members>
+    <members>Question.NAUtilitiesDomainQuestion211</members>
+    <members>Question.NAUtilitiesDomainQuestion212</members>
+    <members>Question.NAUtilitiesDomainQuestion3</members>
+    <name>CustomMetadata</name>
   </types>
   <version>36.0</version>
 </Package>
