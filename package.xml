@@ -462,5 +462,10 @@
     <members>Question.NAUtilitiesDomainQuestion3</members>
     <name>CustomMetadata</name>
   </types>
+  <types>
+    <members>Account</members>
+    <members>SendEmail</members>
+    <name>QuickAction</name>
+  </types>
   <version>36.0</version>
 </Package>
